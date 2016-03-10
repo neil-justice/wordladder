@@ -1,0 +1,10 @@
+This turns the word ladder generator into a game.  It chooses two random words of length argv[2], and presents the user with a screen like the following:
+
+cat
+___
+___
+dog
+
+The user is prompted to enter the next word.  If it is a valid choice the ladder is re-printed with the word included.  It has been set up to allow multiple paths - the user does not have to reproduce the exact path found by the generator, though the length needs to be exact.
+
+There is also an undo command - accessed by typing "UNDO", which removes the last word entered successfully and reprints the ladder.
